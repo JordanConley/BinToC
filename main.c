@@ -41,7 +41,7 @@ static void process(FILE* in, FILE* outc, const char* variable) {
     int bytes_read;
     int i;
 
-    fprintf(outc, "unsigned char %s[] = {", variable);
+    fprintf(outc, "const unsigned char %s[] = {", variable);
 
     do {
         bytes_read = fread(buffer, sizeof(char), BUFFER_SIZE, in);
