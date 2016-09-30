@@ -89,14 +89,16 @@ int main(int argc, char** argv) {
             sprintf(long_name, "%s.c", value);
             output_c = fopen(long_name, "w");
             if (!output_c) {
-                fprintf(stderr, "Could not open %s for writing\r\n", long_name);
+                fprintf(stderr, "Could not open %s for writing\r\n", 
+                        long_name);
                 return 1;
             }
 
             sprintf(long_name, "%s.h", value);
             output_h = fopen(long_name, "w");
             if (!output_h) {
-                fprintf(stderr, "Could not open %s for writing\r\n", long_name);
+                fprintf(stderr, "Could not open %s for writing\r\n", 
+                        long_name);
                 return 1;
             }
 

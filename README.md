@@ -1,11 +1,11 @@
-===============================================================================
-BINTOC
-===============================================================================
+# BINTOC
 
+## Description
 Creates a C source file and matching header file for a binary dump.
 
 By default, takes input from stdin and produces valid C output to stdout. 
 
+## Arguments
 Arguments to the program are given in key=value pairs.
 
 Possible arguments are:
