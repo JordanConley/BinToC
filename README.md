@@ -9,6 +9,7 @@ By default, takes input from stdin and produces valid C output to stdout.
 Arguments to the program are given in key=value pairs.
 
 Possible arguments are:
+
 | Command | Description |
 | --- | --- |
 | infile | Specifies input file. If ommitted, defaults to stdin |
